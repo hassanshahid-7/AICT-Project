@@ -1,0 +1,146 @@
+body {
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e1b063;
+    background: url('https://img.freepik.com/free-photo/top-view-cooked-bell-peppers-with-different-seasonings-grey-surface-meal-vegetables-meat-dolma-food_140725-74516.jpg?uid=R164487363&ga=GA1.1.896011322.1726914163&semt=ais_hybrid') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-image: url('https://img.freepik.com/free-photo/flat-lay-mexican-food-composition-with-copyspace_23-2148140229.jpg?ga=GA1.1.1333110793.1734970454&semt=ais_hybrid'); /* Replace with your food image */
+    background-size: cover;
+    background-position: center;
+    color: #79BD8F;
+    padding: 2rem 0;
+    border-bottom: 10px solid #fc711b;
+}
+
+.header-content {
+    text-align: center;
+    font-family: bodoni;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size:x-large;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 2rem;
+    font-size:x-large ;
+}
+
+nav a {
+    color:#79BD8F ;
+    text-decoration: none;
+}
+
+h1 {
+    color: #79BD8F;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+
+.suggestion-form {
+    background-color: rgba(150, 147, 147, 0.9);
+    padding: 2rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-form h2 {
+    color: #d35400;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.suggestion-form label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.suggestion-form input, 
+.suggestion-form textarea, 
+.suggestion-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.suggestion-form button {
+    background-color: #d35400;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.suggestion-form button:hover {
+    background-color: #e67e22;
+}
+
+.error-message {
+    font-size: 16px;
+    color: red;
+    margin-top: -8px;
+    margin-bottom: 10px;
+    left: 30px;
+}
+
+footer {
+    background-color: #d35400;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content h3 {
+    margin-bottom: 10px;
+    color: #f39c12;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    color: #f39c12;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
