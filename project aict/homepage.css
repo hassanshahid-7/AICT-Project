@@ -9,10 +9,11 @@ body {
 }
 
 header {
-    background-image: url('https://img.freepik.com/free-photo/flat-lay-mexican-food-composition-with-copyspace_23-2148140229.jpg?ga=GA1.1.1333110793.1734970454&semt=ais_hybrid'); /* Replace with your food image */
-    background-size: cover;
+    background-image: url('https://img.freepik.com/free-vector/italian-food-with-pasta-realistic-composition-dark-background-isolated-icons-spaghetti-greens-vector-illustration_1284-83053.jpg?t=st=1735924902~exp=1735928502~hmac=b8d10de057850cb6ec832f522b267de50a12ace66a6eb4a51ab50609738ab130&w=826'); /* Replace with your food image */
+    background-size: 100% 100%;
+    height: 150px;
     background-position: center;
-    color: #79BD8F;
+    color: #fc711b;
     padding: 2rem 0;
     border-bottom: 10px solid #fc711b;
 }
@@ -41,36 +42,68 @@ nav li {
 }
 
 nav a {
-    color:#79BD8F ;
+    color:#fc711b ;
     text-decoration: none;
 }
 
 .container {
-    max-width: 960px;
+    width: 100%;
     margin: 0 auto;
     padding: 2rem;
 }
 
 .categories {
-    text-align: center;
-    margin-bottom: 2rem;
+   
+    width: 90%;
+    height:400px ;
+    background-color: rgba(0, 0, 0, 0.63);
+    display: flex;
+    align-items: center;
+    border: 3px solid #fc711b;
+  margin: 2rem;
+  border-radius: 10px;
+    justify-content: space-between;
 }
 
-.categories a {
-    display: inline-block;
-    margin: 0 1rem;
-    padding: 1rem 2rem;
-    background-color: #333;
-    color: #d35400;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: larger;
+
+.category-design {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content:right;
+    padding-right: 40px;
+    align-items:center;
+    color: #e66616;
+    font-size: 40px;
+    font-weight: bold;
+    border: 2px solid #e66616; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; 
+    text-decoration: none; 
+    margin: 10px; 
+}
+
+.circular-div:hover {
+    transform: scale(1.1); 
 }
 
 .popular-recipes {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 2rem;
+    width: 90%;
+    
+}
+.popular-recipes h1{
+    color: #f56d13;
+    background-color: #333333af;
+    height: 60px;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid #d35400;
 }
 
 .recipe-card {
@@ -79,6 +112,7 @@ nav a {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 2rem;
     font-size: larger;
+    
 }
 
 .recipe-card img {
