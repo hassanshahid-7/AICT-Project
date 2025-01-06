@@ -11,7 +11,7 @@ body {
 header {
     background-image: url('https://img.freepik.com/free-vector/italian-food-with-pasta-realistic-composition-dark-background-isolated-icons-spaghetti-greens-vector-illustration_1284-83053.jpg?t=st=1735924902~exp=1735928502~hmac=b8d10de057850cb6ec832f522b267de50a12ace66a6eb4a51ab50609738ab130&w=826');
     /* Replace with your food image */
-    background-size: 100% 100%;
+    background-size:  cover;
     height: 150px;
     background-position: center;
     color: #fc711b;
